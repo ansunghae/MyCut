@@ -60,7 +60,7 @@ export default function CameraScreen() {
         count++;
       }
 
-      if (count >= 1) {
+      if (count >= 6) {
         clearInterval(interval);
         setIsTakingPhotos(false);
       }
