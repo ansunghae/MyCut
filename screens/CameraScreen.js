@@ -69,7 +69,7 @@ export default function CameraScreen() {
 
   // `capturedPhotos`가 업데이트된 후에 화면 전환을 처리하는 `useEffect`
   useEffect(() => {
-    if (capturedPhotos.length === 1) {
+    if (capturedPhotos.length === 6) {
       navigation.replace("PictureAfter", { photos: capturedPhotos });
     }
   }, [capturedPhotos, navigation]);
