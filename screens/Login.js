@@ -1,7 +1,7 @@
 import React from "react";
 import { View, Text, StyleSheet, TouchableOpacity } from "react-native";
 
-function Login({ navigation }) {
+export default function Login({ navigation }) {
   return (
     <View style={styles.container}>
       {/* Title Section */}
@@ -62,4 +62,3 @@ const styles = StyleSheet.create({
     }
   });
 
-export default Login;
