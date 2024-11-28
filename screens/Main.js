@@ -14,7 +14,7 @@ function Main({ navigation }) {
       {/* Button Section */}
       <TouchableOpacity
         style={styles.button}
-        onPress={() => navigation.navigate("CameraScreen")} // 카메라 화면으로 이동
+        onPress={() => navigation.navigate("Notice")} // 카메라 화면으로 이동
       >
         <Text style={styles.buttonText}>촬영하기</Text>
       </TouchableOpacity>
