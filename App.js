@@ -10,6 +10,8 @@ import Login from "./screens/Login"
 import Main from "./screens/Main"
 import KakaoLogin from "./screens/KakaoLogin"
 import CameraScreen from './screens/CameraScreen';
+import Notice from './screens/Notice';
+import PictureAfter from './screens/PictureAfter';
 
 export default function App() {
   return (
@@ -19,7 +21,9 @@ export default function App() {
           <Stack.Screen name="Login" component={Login} options={{headerShown: false,}}/>
           <Stack.Screen name='KakaoLogin' component={KakaoLogin} options={{headerShown: false,}}/>
           <Stack.Screen name='Main' component={Main} options={{headerShown: false,}}/>
+          <Stack.Screen name='Notice' component={Notice} options={{headerShown: false,}} />
           <Stack.Screen name='CameraScreen' component={CameraScreen} options={{headerShown: false,}}/>
+          <Stack.Screen name='PictureAfter' component={PictureAfter} options={{headerShown: false,}} />
         </Stack.Navigator>
       </View>
     </NavigationContainer>
