@@ -1,10 +1,9 @@
 import React, { useState } from "react";
 import { View, StyleSheet, ActivityIndicator } from "react-native";
 import { WebView } from "react-native-webview";
-require("dotenv").config()
 
-const REST_API_KEY = process.env.REST_API_KEY;
-const REDIRECT_URI = process.env.REDIRECT_URI;
+const REST_API_KEY = "0c7107e57e320ea9f6d326e7ae54b3e4";
+const REDIRECT_URI = "http://172.30.1.40:19006/Main";
 
 const KakaoLogin = ({ navigation }) => {
   const [showWebView, setShowWebView] = useState(true);
